@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Agely Mobile</title>
@@ -7,7 +7,8 @@
 	<script src="js/jquery.mobile-1.4.3.min.js"></script>
 	
     <meta name="format-detection" content="telephone=yes" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset='uft-8' />
 </head>
 <body>
 		<script type="text/javascript" src="cordova.js"></script>
@@ -16,7 +17,7 @@
 
 
 		<div align="center"> 
-			<img src="img\logo.png"></a>
+			<img src="img\logo.png">
 		</div>
 
 		<script>
@@ -24,7 +25,7 @@
 				//window.open("menu.html", '_self', 'location=yes');
 				
 				//window.open("http://192.168.0.2:8888/mobile", '_self', 'location=yes');
-				window.open("http://sistema.agely.com.br/mobile", '_self', 'location=yes');
+				window.open("http://sistema.agely.com.br/mobile?tela=login", '_self', 'location=yes');
 				
 				/*alert("inicio");
 			
@@ -43,7 +44,7 @@
 			}
 			setTimeout("abrir()", 2000);
 		</script>
-		<div align='center'><img src='css/themes/default/images/ajax-loader.gif'/></div>
+		<div align='center'><img src='css/carregando.gif' /></div>
 
 </body>
 </html>
