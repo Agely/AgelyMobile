@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.agely.mobile"
+        id        = "com.phonegap.agely_teste.mobile"
         version   = "1.0.0">
-    <name>Agely Mobile</name>
+    <name>Agely Mobile Teste</name>
 
     <description>
-        Agely Mobile
+        Agely Mobile Teste
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
@@ -14,6 +14,8 @@
     </author>
 
     <gap:plugin name="com.phonegap.plugins.barcodescanner"/>
+	<gap:plugin name="com.phonegap.plugins.childbrowser"/>
+	<gap:plugin name="org.apache.cordova.inappbrowser"/>
 
     <feature name="http://api.phonegap.com/1.0/device" />
     <feature name="debug-server" required="true">
@@ -28,7 +30,9 @@
     <preference name="webviewbounce"    value="false" />
 
     <icon src="res/icon/icon.png" />
-
+	
+	<access origin="*" /> 
+	
     <!-- <gap:splash src="res/screen/screen.png"  />  -->
 
     <!-- content src="http://www.w3.org/2010/05/video/mediaevents.html" / -->
